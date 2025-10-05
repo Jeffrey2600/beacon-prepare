@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        alert: {
+          critical: "hsl(var(--alert-critical))",
+          "critical-foreground": "hsl(var(--alert-critical-foreground))",
+          warning: "hsl(var(--alert-warning))",
+          "warning-foreground": "hsl(var(--alert-warning-foreground))",
+          caution: "hsl(var(--alert-caution))",
+          "caution-foreground": "hsl(var(--alert-caution-foreground))",
+          safe: "hsl(var(--alert-safe))",
+          "safe-foreground": "hsl(var(--alert-safe-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
